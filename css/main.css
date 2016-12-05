@@ -1,1 +1,244 @@
 /* Tu CSS va aqui */
+.dos{
+   position: relative;
+    bottom: 20px;
+}
+
+
+/*Fuentes*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: Courier, monospace;
+}
+
+a, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* NAV */
+.navbar-default {
+ border-color: transparent;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-shadow: 2px 4px 9px -2px rgba(0,0,0,0.2);
+  -moz-box-shadow: 2px 4px 9px -2px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 9px -2px rgba(0,0,0,0.2);
+}
+.navbar-default .navbar-header .navbar-brand {
+  color: #5cd9d0;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #5cd9d0;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  color: white;
+}
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: #5cd9d0;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #5cd9d0 !important;
+  background-color: #222222;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: #222222;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-toggle:focus, 
+  .navbar-default .navbar-toggle:hover {
+    background-color: #5cd9d0;
+  }
+  .navbar-default {
+    background-color: #222222;}
+  .navbar-default .navbar-header .navbar-brand {
+    color: white;}
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: #5cd9d0;}
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+    color: white; }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: #5cd9d0;}
+  .navbar-default.affix {
+    background-color: #222222;
+    border-color: rgba(34, 34, 34, 0.05);}
+  .navbar-default.affix .navbar-header .navbar-brand {
+    color: #5cd9d0;
+    font-size: 14px;}
+  .navbar-default.affix .navbar-header .navbar-brand:hover,
+  .navbar-default.affix .navbar-header .navbar-brand:focus {
+    color: #5cd9d0;}
+  .navbar-default.affix .nav > li > a,
+  .navbar-default.affix .nav > li > a:focus {
+    color: white;}
+  .navbar-default.affix .nav > li > a:hover,
+  .navbar-default.affix .nav > li > a:focus:hover {
+    color: #5cd9d0;}
+}
+
+
+#bio {
+  height: 631px;
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.sublime-side {
+  /*background-color: #272822;*/
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 651px;
+  padding: 160px 20px;
+  width: 100%;
+}
+.title {
+  font-size: 3em;
+  margin-top: 30px;
+}
+  
+.title-tag {
+  color: #f92672;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+
+a { 
+  text-decoration: none;
+  color: inherit;
+}
+
+
+@keyframes logo {
+  0%   { transform: rotate(25deg) scale(.01); opacity: 0; }
+  70%  { transform: scale(1.4); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes typing {
+  from { width: 0em; }
+  to   { width: 6em; }
+}
+
+@keyframes blink-start {
+  from, to { border-color: #fff; }
+  50% { border-color: transparent; }
+}
+
+@keyframes blink-end {
+  from, to { border-color: #fff; }
+  50% { border-color: transparent; }
+}
+
+#trabajos,
+#contacto {
+  padding: 80px 20px;
+  width: 100%;
+  height: auto;
+}
+
+.ico img {
+  max-width: 100px;
+  width: 100%;
+  height: auto;
+    border-radius: 50px;
+ 
+  
+}
+.job img {
+  width: 110%;
+    position: relative;
+}
+.bac{
+   background-color: #000;
+    width: 1176px;
+        padding-bottom: 50px;
+    margin-left: 222px;
+    position: relative;
+    bottom: 50px
+}
+.pa{
+color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: 50px;
+}
+.but{
+    border: 2px solid #fff;
+    margin-left: 510px;
+    width: 160px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 100px;
+}
+footer {
+  background-color: #F05F40;
+  color:#fff;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  
+}
+.linea {
+    border: 2px solid #F05F40;
+    width: 50px;
+}
+.linea2 {
+    border: 2px solid #fff;
+    width: 50px;
+}
+
+
+
+@media (max-width:480px) {
+  #bio,
+  #contacto {
+    padding: 70px 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  #trabajos {
+    padding: 60px 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 23px;
+  }
+  h2.write {
+    font-size: 3em;
+  }
+  #contacto h3 {
+    font-size: 20px;
+  }
+  #contacto i {
+    margin: 10px;
+    font-size: 50px;
+  }
+}
+
+
+
+
